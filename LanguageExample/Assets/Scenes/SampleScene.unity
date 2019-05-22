@@ -328,6 +328,7 @@ GameObject:
   - component: {fileID: 720409063}
   - component: {fileID: 720409062}
   - component: {fileID: 720409061}
+  - component: {fileID: 720409064}
   m_Layer: 5
   m_Name: btnTurkce
   m_TagString: Untagged
@@ -397,7 +398,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 720409062}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 720409064}
+        m_MethodName: TurkceClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &720409062
@@ -437,6 +449,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720409059}
   m_CullTransparentMesh: 0
+--- !u!114 &720409064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720409059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081f0ece1878b488abe43506d4594506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &770334363
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,6 +854,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -902,6 +927,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1c0fda55a544db59470b2fecfd7fcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  language: 
 --- !u!1 &981232217
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,6 +1175,7 @@ GameObject:
   - component: {fileID: 1397394924}
   - component: {fileID: 1397394926}
   - component: {fileID: 1397394925}
+  - component: {fileID: 1397394927}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1205,6 +1244,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397394923}
   m_CullTransparentMesh: 0
+--- !u!114 &1397394927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397394923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081f0ece1878b488abe43506d4594506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1485740509
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,6 +1268,7 @@ GameObject:
   - component: {fileID: 1485740513}
   - component: {fileID: 1485740512}
   - component: {fileID: 1485740511}
+  - component: {fileID: 1485740514}
   m_Layer: 5
   m_Name: btnFrance
   m_TagString: Untagged
@@ -1286,7 +1338,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1485740512}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1485740514}
+        m_MethodName: FransizcaClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1485740512
@@ -1326,6 +1389,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485740509}
   m_CullTransparentMesh: 0
+--- !u!114 &1485740514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485740509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081f0ece1878b488abe43506d4594506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1728991875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,6 +1795,7 @@ GameObject:
   - component: {fileID: 2002180244}
   - component: {fileID: 2002180243}
   - component: {fileID: 2002180242}
+  - component: {fileID: 2002180245}
   m_Layer: 5
   m_Name: btnEnglish
   m_TagString: Untagged
@@ -1789,7 +1865,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2002180243}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2002180245}
+        m_MethodName: IngilizceClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2002180243
@@ -1829,3 +1916,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2002180240}
   m_CullTransparentMesh: 0
+--- !u!114 &2002180245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002180240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081f0ece1878b488abe43506d4594506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
